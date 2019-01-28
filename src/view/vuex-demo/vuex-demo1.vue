@@ -29,6 +29,7 @@
       }
     },
     mounted(){
+      // 初始化数据
       this.getData()
       this.testMapActions()
       console.log(...mapActions(['user/actionA']))
