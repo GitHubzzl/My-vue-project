@@ -36,7 +36,7 @@
     mounted(){
     // 线上修改
       // 初始化数据
-      this.getData()
+     // this.getData()
       this.testMapActions()
       console.log(...mapActions(['user/actionA']))
     },
