@@ -29,7 +29,8 @@
       }
     },
     mounted(){
-      this.getData()
+    // 初始化
+      // this.getData()
     },
     methods:{
       getData(){
