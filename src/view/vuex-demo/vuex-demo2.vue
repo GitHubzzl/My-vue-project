@@ -31,6 +31,7 @@
     mounted(){
     // 初始化
       // this.getData()
+      // this.init()
     },
     methods:{
       getData(){
