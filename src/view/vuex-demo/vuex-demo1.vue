@@ -4,6 +4,7 @@
     <p>term:{{term}}</p>
     <p>friendsLen:{{friendsLen}}</p>
     <p>school:{{school}}</p>
+    <p @click="testMapActions">count:{{count}}</p>
   </div>
 </template>
 <script>
@@ -12,7 +13,8 @@
     name:'vuexDemo1',
     computed:{
       ...mapState({
-        term: state => state.user.term
+        term: state => state.user.term,
+        count: state => state.user.count
       }),
       school(){
         return this.$store.state.user.school
@@ -28,11 +30,14 @@
     },
     mounted(){
       this.getData()
+      this.testMapActions()
+      console.log(...mapActions(['user/actionA']))
     },
     methods:{
+      ...mapActions(['user/actionA']),
       getData(){
-        console.log(this.$store.state.user.term)
-        console.log(this.$store.state.app.term)
+        //console.log(this.$store.state.user.term)
+        //console.log(this.$store.state.app.term)
         this.$axios.get('/user/getTerm').then(data=>{
           let res = data.data
           if(res.data.type === 1){
@@ -40,10 +45,15 @@
           }else if(res.data.type === 2){
             // this.$store.commit('app/updateTerm',"修改app-term")
           }
-          console.log(this.$store.state.user.term)
-          console.log(this.$store.state.app.term)
+          //console.log(this.$store.state.user.term)
+          //console.log(this.$store.state.app.term)
 
         })
+      },
+      testMapActions(){
+        this['user/actionA']()
+        //this.$store.dispatch('user/actionA')
+        //
       }
     }
   }
