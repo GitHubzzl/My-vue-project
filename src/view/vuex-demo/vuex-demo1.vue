@@ -19,6 +19,11 @@
       school(){
         return this.$store.state.user.school
       },
+      /**
+       * 好友人数
+       * params null
+       * returns null
+       */
       friendsLen(){
         return this.$store.getters['user/friendsLen']
       }

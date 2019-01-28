@@ -25,7 +25,7 @@
     },
     data () {
       return {
-        'ser':123
+        'ser':123 //成绩
       }
     },
     mounted(){
