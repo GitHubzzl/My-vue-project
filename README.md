@@ -2,7 +2,7 @@
 
 > A Vue.js project
 >master
-> dev123456
+> master2
 
 ## Build Setup
 
