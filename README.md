@@ -1,8 +1,7 @@
 # My-project
 
 > A Vue.js project
->dev
->dev3
+>master
 
 ## Build Setup
 
