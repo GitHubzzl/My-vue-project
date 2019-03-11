@@ -1,7 +1,7 @@
 # My-project
 
 > A Vue.js project
-> 解决方案 master  本地master2.0
+> bb22
 
 ## Build Setup
 
