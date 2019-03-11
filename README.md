@@ -1,7 +1,7 @@
 # My-project
 
 > A Vue.js project
->master
+>dev
 
 ## Build Setup
 
