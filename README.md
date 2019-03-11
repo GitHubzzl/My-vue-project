@@ -1,9 +1,7 @@
 # My-project
 
 > A Vue.js project
->dev alllsld
-> A Vue.js project aaa
->远端已修改
+>远端已修改2
 
 ## Build Setup
 
