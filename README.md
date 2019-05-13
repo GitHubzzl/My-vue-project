@@ -1,6 +1,6 @@
 # My-project
 
-> dev base22
+> master2
 
 ## Build Setup
 
