@@ -1,10 +1,6 @@
 # My-project
 
-> A Vue.js project
->dev alllsld
-> A Vue.js project aaa
->lllllllllllllllllll
->lllllllllllllllllll
+> dev
 
 ## Build Setup
 
