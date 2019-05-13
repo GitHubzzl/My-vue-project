@@ -1,7 +1,6 @@
 # My-project
 
-> 分支说明:dev
-
+> 分支说明:master2
 ## Build Setup
 
 ``` bash
