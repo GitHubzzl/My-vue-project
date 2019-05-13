@@ -1,6 +1,6 @@
 # My-project
 
-> 分支说明:dev2
+> 分支说明:master
 
 ## Build Setup
 
