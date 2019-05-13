@@ -1,6 +1,6 @@
 # My-project
 
-> master2
+> master1
 
 ## Build Setup
 
