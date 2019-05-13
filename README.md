@@ -1,6 +1,6 @@
 # My-project
 
-> dev
+> dev2
 
 ## Build Setup
 
