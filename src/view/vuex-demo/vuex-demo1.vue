@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>vuex-demo1</p>
+    <p>vuex-demo122</p>
     <p>term:{{term}}</p>
     <p>friendsLen:{{friendsLen}}</p>
     <p>school:{{school}}</p>
