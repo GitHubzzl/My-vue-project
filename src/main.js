@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 import store from './store'
 import iView from 'iView'
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 // import i18n from '@/locale'
 import  VueRouter from 'vue-router'
 import  VueResource from 'vue-resource'
@@ -14,6 +16,8 @@ import plugin from './plugins'
 Vue.use(plugin)
 Vue.use(VueRouter)
 Vue.use(VueResource)
+Vue.use(ElementUI, { size: 'small' })
+// 导入插件
 // Vue.use(iView, {
 //   i18n: (key, value) => i18n.t(key, value)
 // })
