@@ -165,5 +165,49 @@ export default [
         component: () => import('@/view/table/table-area6/table-area.vue')
       }
     ]
+  },
+  {
+    path: '/',
+    name: 'customColumnDialog',
+    component: Main,
+    meta: {
+      title: '自定义',
+      icon: 'ios-book'
+    },
+    children: [
+      {
+        path: '/customColumnDialog',
+        name: 'customColumnDialog',
+        meta: {
+          hideInMenu: false,
+          title: '自定义列',
+          notCache: true,
+          icon: 'ios-book'
+        },
+        component: () => import('@/view/custom-column-dialog/custom-column-dialog.vue')
+      }
+    ]
+  },
+  {
+    path: '/',
+    name: 'customTableColumn',
+    component: Main,
+    meta: {
+      title: '自定义',
+      icon: 'ios-book'
+    },
+    children: [
+      {
+        path: '/customTableColumn',
+        name: 'customTableColumn',
+        meta: {
+          hideInMenu: false,
+          title: '自定义-elTable-表头',
+          notCache: true,
+          icon: 'ios-book'
+        },
+        component: () => import('@/view/custom-table-column/custom-table-column.vue')
+      }
+    ]
   }
 ]
