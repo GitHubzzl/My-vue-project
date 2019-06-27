@@ -2,8 +2,8 @@
   <div>
     <p>vuex-demo122</p>
     <p>term:{{term}}</p>
-    <p>friendsLen:{{friendsLen}}</p>
-    <p>school:{{school}}</p>
+    <p>friendsLen:  {{friendsLen}}</p>
+    <p>school:  {{school}}</p>
     <p @click="testMapActions">count:{{count}}</p>
   </div>
 </template>
